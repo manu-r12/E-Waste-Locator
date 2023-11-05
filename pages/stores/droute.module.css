@@ -1,0 +1,173 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logotitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+}
+
+.link{
+    font-family: "Lato", sans-serif;
+}
+
+.searchSection{
+    padding: 24px;
+}
+
+.linksSection{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.spanGreen{
+    color: #025951;
+}
+
+.userName{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-right: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.bottomConatainer{
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #025951; */
+    background: linear-gradient(-210deg,#025951  , #021412);
+    border-radius: 50px;
+    margin-top: 20px;
+  
+
+}
+
+.inputAndLabel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchInputSection{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.labelForSearch{
+  
+    font-family: "Figtree", sans-serif;
+}
+
+.inputforSeacrh{
+        width: 150px;
+        height: 30px;
+        background-color: rgb(238, 237, 237);
+        border: none;
+        border-radius: 19px;
+}
+
+.searchBar{
+   cursor: pointer;
+    background-color: rgb(238, 237, 237);
+    border-radius: 50%;
+
+
+}
+
+.storeListSection{
+    padding: 20px;
+}
+
+.mainConainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.storeInfoContainer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.storeDiv{
+    width: 88%;
+
+}
+
+.btn{
+    border: none;
+    color: white;
+    border: 1px solid #025951;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 14px;
+    background-color: #025951;
+    border-radius: 14px;
+    font-family: "Lato" ,sans-serif;
+    letter-spacing: 1px;
+    width: 60%;
+    transition: all .3s;
+}
+
+.btn:hover{
+
+    background-color: white;
+    border: 1px solid black;
+    color: #025951;
+
+
+}
+
+
+.formContainer{
+   
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+    /* width: 40%; */
+}
+
+
+.labels{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+
+.inputs{
+    border: none;
+    background-color: rgba(243, 242, 242, 0.806);
+
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+
+.mainTitle{
+    margin: 20px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.span{
+        color: #025951;
+}

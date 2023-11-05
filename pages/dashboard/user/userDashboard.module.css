@@ -1,0 +1,131 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logotitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+}
+
+.link{
+    font-family: "Lato", sans-serif;
+}
+
+.searchSection{
+    padding: 24px;
+}
+
+.linksSection{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.spanGreen{
+    color: #025951;
+}
+
+.userName{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-right: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.inputAndLabel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchInputSection{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.labelForSearch{
+  
+    font-family: "Figtree", sans-serif;
+}
+
+.inputforSeacrh{
+        width: 150px;
+        height: 30px;
+        background-color: rgb(238, 237, 237);
+        border: none;
+        border-radius: 19px;
+}
+
+.searchBar{
+   cursor: pointer;
+    background-color: rgb(238, 237, 237);
+    border-radius: 50%;
+
+
+}
+
+.storeListSection{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.storeTitle{
+    font-family: "Montserrat", sans-serif;
+    color: #025951;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.clientInfo{
+    font-family: "Lato", sans-serif;
+    letter-spacing: .8px;
+
+}
+
+.clientRequests{
+    padding: 20px;
+}
+
+.titleCLients{
+font-family: "Montserrat", sans-serif;
+padding: 10px;
+font-family: 600;
+font-size: 25px;
+
+
+}
+
+.clientBox{
+    padding: 40px;
+    display: flex;
+    background-color: rgb(245, 243, 243);
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    background-color: #025951;
+    color: white;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.btn{
+    background-color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
